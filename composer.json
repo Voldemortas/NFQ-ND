@@ -1,0 +1,17 @@
+{
+    "name": "simanaitis/nfq",
+    "description": "Namų darbas",
+    "type": "project",
+    "require": {
+        "jakub-onderka/php-console-color": "^0.2.0"
+    },
+    "authors": [
+        {
+            "name": "Andrius Simanaitis",
+            "email": "eragonas5@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": ["src/NotTyped.php", "src/default.php", "src/Soft.php", "src/Strict.php"]
+    }
+}

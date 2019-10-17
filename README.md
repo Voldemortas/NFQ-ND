@@ -1,2 +1,5 @@
-# NFQ-ND
-Visi NFQ akademijos namų darbai
+# NFQ akademija 2019 ND
+* `calculateHomeWorkSum(...$numbers)` – priima bet kokius parametrus, vykdant + operaciją keičia operandus į numeric (`int`/`float`) ir juos sudeda, grąžina `int` arba `float`, nes casting'as įvyksta jau sudėties metu.
+* `\Nfq\Akademija\NotTyped\calculateHomeWorkSum(...$numbers) :int` — priima bet kokius parametrus ir bando grąžinti `int`. Viskas vyksta taip pat, kaip ir pirmoj funkcijoj, tik gale bando cast'int į `int`.
+* `\Nfq\Akademija\Soft\calculateHomeWorkSum(int ...$numbers) :int` — viskas kaip antroj funkcijoj, tik jau iškart bando cast'int argumentus į `int`.
+* `\Nfq\Akademija\Strict\calculateHomeWorkSum(int ...$numbers) :int` *su* `declare(strict_types=1)` — daro tą patį, kaip ir trečioji funkcija, tačiau atidžiau žiūriu į grąžinamos reikšmės tipą (šiuo atveju į argumentus — ne, nes kvietėjas nenaudoja strict_type direktyvos). Jeigu grąžinama reikšmė nebūtų `int`, tai mestų `TypeError`.
