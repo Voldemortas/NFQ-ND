@@ -1,0 +1,16 @@
+{
+    "name": "simanaitis/oop",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Andrius Simanaitis",
+            "email": "eragonas5@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nfq\\Homework\\":"src/"
+        }
+    },
+    "require": {}
+}
