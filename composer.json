@@ -1,0 +1,24 @@
+{
+    "name": "nfq-nd/testing",
+    "description": "Testing",
+    "authors": [
+        {
+            "name": "Andrius Simanaitis",
+            "email": "eragonas5@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "NFQ\\Homework\\": "src/services"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NFQ\\Homework\\Tests\\": "src/tests/"
+        }
+    }
+}
